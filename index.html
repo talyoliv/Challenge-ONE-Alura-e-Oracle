@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body class="body">
+    <header><img class="logo" src="img/logo.png" alt="Logo Alura"></header>
+    <main class="main">
+        <section class="section_left">
+            <label class="label">* Use apenas letras minúsculas e sem acento ou caracter especial</label>
+            <textarea id="textarea_1" cols="50" rows="20" placeholder="Digite seu texto"></textarea>
+            <div class="div_buttons">
+                <button onclick="btnCriptografar()" class="button_criptografar">Criptografar</button>
+                <button onclick="btnDescriptografar()" class="button_descriptografar">Descriptografar</button>
+            </div>            
+        </section>
+        <section class="section_right">
+            <textarea class="textarea_2" id="textarea_2" cols="30" rows="25" placeholder="Nenhuma Mensagem encontrada"></textarea>
+            <button onclick="btnCopiar()" class="button_copiar" id="copiar">Copiar</button>
+        </section>        
+    </main>
+    <footer class="footer">
+        <p>Desenvolvido por Talita de Oliveira Gomes</p>
+        <p>Março de 2024</p>
+        <p>Apoio Oracle Next Education e Alura</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
